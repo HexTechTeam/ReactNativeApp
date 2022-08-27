@@ -2,13 +2,12 @@ import React from 'react'
 import { View,Image,Text, TouchableOpacity} from 'react-native'
 
 
-export default function HomeScreen(){
+export default function HomeScreen(props){
 
      return(
     <View style={{
      flex: 1,
-   
-     paddingTop:45}}>
+    paddingTop:45}}>
 
       <Image style={{
           flex:4,
@@ -39,7 +38,7 @@ export default function HomeScreen(){
 
           <View style={{flex:1, marginVertical:10,}}>
 
-             <TouchableOpacity style={{
+             <TouchableOpacity onPress={() => {props.navigation.navigate("Assignment")}} style={{
                 backgroundColor:'#BF9270',
                 marginHorizontal:99,
                 marginTop:30,
@@ -48,8 +47,8 @@ export default function HomeScreen(){
                     padding:15,
                     fontSize:24,
                     fontWeight:'bold'}}>
-                      Get Started >>
-               </Text>
+                    Get Started >> 
+                </Text>
              </TouchableOpacity>
           </View>
 
