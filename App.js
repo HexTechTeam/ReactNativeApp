@@ -13,7 +13,9 @@ export default function Flex(){
      <NavigationContainer>
       <Stack.Navigator>
       
-      <Stack.Screen options={{headerShown:false,}} name="Onboarding" component={HomeScreen} />
+      <Stack.Screen 
+       options={{headerShown:false,}}
+       name="Onboarding" component={HomeScreen} />
       
       <Stack.Screen name="Assignment" component={LogScreen} />
       
