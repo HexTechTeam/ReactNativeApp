@@ -25,7 +25,7 @@ export default function HomeScreen(props){
                fontWeight:"bold"
               
              }}>
-                Manage and prioritize your Assigments easily
+                Manage and prioritize your Assignments easily
           </Text>
 
           <Text style={{
@@ -33,7 +33,7 @@ export default function HomeScreen(props){
               fontWeight:'bold',
                color:'grey',
                textAlign:'center',
-            }}>Increase your productivity by managing your personal and team Assigments and do them based on priority!
+            }}>Increase your productivity by managing your personal and team Assignments and do them based on priority!
           </Text>
 
           <View style={{flex:1, marginVertical:10,}}>

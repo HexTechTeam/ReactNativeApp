@@ -1,15 +1,25 @@
 import React from 'react'
-
+import { AntDesign } from '@expo/vector-icons'; 
 import { View } from 'react-native'
+import { TouchableOpacity, useState } from 'react-native';
 
 
 
 export default function LogScreen(){
+     
 
      return(
-    <View>
 
+<View style={{flex:1}}>
+  
+     <TouchableOpacity style={{position:'absolute',marginTop:580,marginLeft:275,}}>
 
-    </View>
+        <AntDesign name="pluscircle" size={60} color="grey"/>  
+
+     </TouchableOpacity>          
+
+</View>
      )
 } 
+
+
