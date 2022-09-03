@@ -62,7 +62,7 @@ const styles=StyleSheet.create({
      textAlign: 'center',
      fontFamily: 'Gt-Walsheim',
      fontSize: 26,
-     marginTop: 10, 
+     marginTop: 19, 
      textShadowColor: '#f97068', 
      textShadowRadius: 2, 
      textShadowOffset: { width: 1 },
