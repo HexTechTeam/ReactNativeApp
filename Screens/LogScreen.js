@@ -29,7 +29,7 @@ export default function LogScreen(){
 
                    <View style={styles.touchable_view}>
                          <TouchableOpacity style={styles.touch_opacity}>
-                         <AntDesign  name = "pluscircle" size={60} color ="#f97068"/>  
+                         <AntDesign  name = "pluscircle" size={50} color ="#f97068"/>  
                          </TouchableOpacity> 
                    </View>
 
@@ -47,7 +47,7 @@ const styles=StyleSheet.create({
   touch_opacity:{
      position:'absolute',
      marginTop:120,
-     marginLeft:280,
+     marginLeft:285,
      
   },
 
@@ -62,19 +62,20 @@ const styles=StyleSheet.create({
      textAlign: 'center',
      fontFamily: 'Gt-Walsheim',
      fontSize: 26,
-     marginTop: 19, 
+     marginTop: 22, 
      textShadowColor: '#f97068', 
      textShadowRadius: 2, 
      textShadowOffset: { width: 1 },
-     letterSpacing: 2,
+     
 },
 
  image: {
      flex:4,
      resizeMode: 'contain',
-     width: 60,
-     height:60,
-     marginLeft:80,
+     width: 50,
+     height:50,
+     marginLeft:88,
+     marginTop:10
      
    },
 
