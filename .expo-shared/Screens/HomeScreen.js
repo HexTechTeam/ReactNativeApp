@@ -1,6 +1,6 @@
 import React from 'react'
 import { View,Image,Text, TouchableOpacity} from 'react-native'
-
+import task from './assets/task.jpeg'
 
 export default function HomeScreen(props){
 
@@ -15,7 +15,7 @@ export default function HomeScreen(props){
           borderBottomRightRadius:20,
           borderBottomLeftRadius:20}}
 
-        source={{uri:'https://i.pinimg.com/736x/f5/8c/d0/f58cd04d858e7dbd2aadbbae6a875cf6.jpg'}}/>
+        source={require(task)}/>
     
       <View style={{flex:2,}}>
           <Text style={{
