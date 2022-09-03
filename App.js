@@ -29,15 +29,9 @@ export default function Flex(){
   return (
     <View style={styles.container}>
      <NavigationContainer>
-      <Stack.Navigator>
-      <Stack.Screen 
-        options={{headerShown:false,}}
-        name="onboarding" component={HomeScreen} 
-      />
-      <Stack.Screen 
-        name="assignment" 
-        component={LogScreen} 
-      />
+      <Stack.Navigator screenOptions={{headerShown:false}}>
+      <Stack.Screen name="onboarding" component={HomeScreen} />
+      <Stack.Screen name="assignment" component={LogScreen} />
       </Stack.Navigator>
      </NavigationContainer>
     </View>
